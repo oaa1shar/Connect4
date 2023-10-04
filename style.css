@@ -1,0 +1,14 @@
+.circle{
+  border-style: solid;
+  border-color: black;
+  border-radius: 50px;
+}
+.grid {
+  width: 760px;
+  align-items:normal;
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  gap: 10px;
+}
